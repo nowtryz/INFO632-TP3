@@ -4,6 +4,7 @@
 #include <semaphore.h>
 #include <fcntl.h>
 #include <string.h>
+#include <ctype.h>
 
 /* Constantes */
 #define CONS_COUNT 0
@@ -36,6 +37,12 @@ void retirer(char* message)
 
 void consommer(char* message)
 {
+    char *s = message;
+    while (*s) {
+        *s = toupper((unsigned char) *s);
+        s++;
+    }
+
     printf("%s\n", message);
 }
 
@@ -59,7 +66,7 @@ void *consommation(void *arg)
     char message[50];
     int i;
 
-    for(i = 0; i <= 30; i++) {
+    for(i = 0; i < 30; i++) {
         sem_wait(cons);
         retirer(message);
         sem_post(prod);
@@ -71,7 +78,6 @@ void *consommation(void *arg)
 void main ()
 {
     pthread_t production_thread, consommation_thread;
-    int i;
     /* semaphores */
     if ((cons = sem_open(CONS_NAME, O_CREAT, 0644, CONS_COUNT)) == SEM_FAILED) {
         perror("Could not initialize cons semaphore");

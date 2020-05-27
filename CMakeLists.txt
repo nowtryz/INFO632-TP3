@@ -6,4 +6,4 @@ set(CMAKE_C_STANDARD 11)
 add_executable(TP3
         ex1.c
         ex2.c
-        queue.c exTest.c q5-TD1.1.c)
+        queue.c q4-TD1.1.c)
