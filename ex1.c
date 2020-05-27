@@ -28,7 +28,6 @@ void *p1(void *arg)
     a();
     /* send signal to the created thread */
     sem_post(mutex);
-
 }
 
 void *p2(void *arg)

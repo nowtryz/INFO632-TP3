@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 #include <pthread.h>
 #include <semaphore.h>
 #include <fcntl.h>
@@ -56,6 +57,11 @@ void consommer(char* message)
         *s = toupper((unsigned char) *s);
         s++;
     }
+
+    const struct timespec delay = {rand() % 3, rand() % 1000000000};
+    nanosleep(&delay, NULL);
+
+    printf("%s\n", message);
 }
 
 
@@ -87,7 +93,6 @@ void *consommation(int i)
         retirer(message);
         sem_post(prod);
         consommer(message);
-        printf("%s\n", message);
     }
 }
 

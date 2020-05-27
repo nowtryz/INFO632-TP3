@@ -10,13 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5cdb3d5-8839-48dc-a5f5-41987e7e5f69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/q5-TD1.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exTest.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/q5-TD1.1.c" beforeDir="false" afterPath="$PROJECT_DIR$/q4-TD1.1.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue.c" beforeDir="false" afterPath="$PROJECT_DIR$/queue.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1.c" beforeDir="false" afterPath="$PROJECT_DIR$/ex1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/q5-TD1.c" beforeDir="false" afterPath="$PROJECT_DIR$/q5-TD1.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,18 +68,38 @@
       <option name="presentableId" value="Default" />
       <updated>1590494248077</updated>
       <workItem from="1590494249564" duration="1390000" />
-      <workItem from="1590495700340" duration="21261000" />
+      <workItem from="1590495700340" duration="23672000" />
     </task>
+    <task id="LOCAL-00001" summary="add q5">
+      <created>1590615910647</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590615910647</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add q5" />
+    <option name="LAST_COMMIT_MESSAGE" value="add q5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590495524077">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590495524077" />
+    <state x="493" y="47" key="CommitChangelistDialog2" timestamp="1590615905321">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="493" y="47" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1590615905321" />
+    <state x="184" y="90" key="DiffContextDialog" timestamp="1590615897702">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="184" y="90" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590615897702" />
     <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1590495573000">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -92,5 +108,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="625" y="333" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1590495783847" />
+    <state x="552" y="269" key="Vcs.Push.Dialog.v2" timestamp="1590615912299">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="269" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1590615912299" />
   </component>
 </project>
